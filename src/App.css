@@ -1,9 +1,13 @@
+body{
+  background-color: #F6F8FA;
+}
+
 .App-header {
   text-align: center;
 }
 
 .navbar_container {
-  background-color: aqua;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -12,12 +16,51 @@
   padding: 0%;
   border-radius: 25px;
   display: flex;
+  box-shadow: 0px 10px 10px 2px #DADADA;
+  cursor: pointer;
+}
+
+.navbar_container ul{
+  padding-left: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 110%;
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  align-self: center;
 }
 
 .navbtn {
-  margin-top: auto;
+  align-self: center;
+  margin-left: 0px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto;
-  padding: 0%;
+}
+
+.navbtn:hover,
+.navbtn.active{
+  color: #00A2E2;
+  transition: all 0.4s;
+}
+
+.navbtn::after{
+  content: '';
+  height: 4px;
+  width: 0%;
+  background-color: #00A2E2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -4px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navbtn:hover::after,
+.navbtn.active::after{
+  transition: all 0.3s;
+  width: 100%;
+  opacity: 1;
 }
