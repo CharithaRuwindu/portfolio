@@ -1,0 +1,10 @@
+body{
+    min-height: 100%;
+}
+.section_three{
+    min-height: 100vh;
+}
+.third_title{
+    background-color: rgb(85, 255, 0);
+    margin: 0%;
+}

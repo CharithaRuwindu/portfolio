@@ -1,0 +1,10 @@
+body{
+    min-height: 100%;
+}
+.section_one{
+    min-height: 100vh;
+}
+.first_title{
+    background-color: aqua;
+    margin: 0%;
+}
