@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./css/navbar.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function Navbar() {
 
@@ -16,10 +16,10 @@ function Navbar() {
         <div className="navbar_container">
           <ul>
             <li className={`navbtn ${activeTab === 0 ? 'active' : ''}`} onClick={() => handleNav(0)}>
-              <NavLink to="/about">About</NavLink>
+              <Link to="/about" smooth={true} duration={800}>About</Link>
             </li>
             <li className={`navbtn ${activeTab === 1 ? 'active' : ''}`} onClick={() => handleNav(1)}>
-            <NavLink to="/education">Education</NavLink>
+            <Link to="/education" smooth={true} duration={800}>Education</Link>
             </li>
             <li className={`navbtn ${activeTab === 2 ? 'active' : ''}`} onClick={() => handleNav(2)}>
               Skills
