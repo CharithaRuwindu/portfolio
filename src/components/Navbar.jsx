@@ -78,12 +78,11 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        
+      </header>
       <About ref={aboutRef} />
       <Education ref={educationRef} />
       <Skills ref={skillsRef} />
       <Projects ref={projectsRef} />
-      </header>
     </div>
   );
 }

@@ -1,10 +1,75 @@
-body{
-    min-height: 100%;
+body {
+  min-height: 100%;
+  border: 0;
 }
-.section_one{
-    min-height: 100vh;
+.section_one {
+  min-height: 100vh;
 }
-.first_title{
-    background-color: aqua;
-    margin: 0%;
+.about_content {
+  padding-top: 8%;
+  margin-left: 15%;
+}
+.profile_container img {
+  height: 100%;
+  margin-left: 5%;
+  border-radius: 15px;
+}
+.profile_container {
+  height: 75vh;
+  width: 80%;
+  display: flex;
+  border-radius: 20px;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 10px 10px 10px rgb(189, 189, 189);
+}
+.prof_details {
+  margin-left: 3%;
+}
+.prof_details h1 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.prof_details h3{
+    font-size: 130%;
+    margin: 1px;
+    opacity: 0.8;
+}
+.my_details{
+  margin-top: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  opacity: 0.8;
+}
+.link_container{
+  margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+    width: 70%;
+    opacity: 0.8;
+}
+.icon_box{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 70px;
+}
+.social_icon{
+  color: black;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+.github:hover{
+    color: #60288F;
+}
+.linkedin:hover{
+    color: #0A66C2;
+}
+.medium:hover{
+    color: #00AB6C;
+}
+.mail:hover{
+    color: #F84437;
 }
