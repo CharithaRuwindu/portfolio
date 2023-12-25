@@ -1,10 +1,25 @@
-body{
-    min-height: 100%;
+* {
+  box-sizing: border-box;
 }
-.section_two{
-    min-height: 100vh;
+body {
+  min-height: 100%;
+  border: 0;
 }
-.second_title{
-    background-color: rgb(255, 0, 81);
-    margin: 0%;
+.section_two {
+  min-height: 100vh;
+}
+.top_outline{
+  background-color: rgb(33, 150, 243);
+  height: 4px;
+  width: 110.4%;
+  translate: -24px -24px;
+  border-radius: 4px 4px 0 0;
+}
+.edu_details{
+  padding-top: 3%;
+  text-align: center;
+}
+.edu_details h1{
+  font-size: 350%;
+  opacity: 0.7;
 }

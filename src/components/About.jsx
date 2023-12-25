@@ -1,12 +1,10 @@
 import React, { forwardRef } from "react";
-import link from "react-router-dom";
 import "./css/about.css";
 import profile from "../assets/profile_img3.png"
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillMediumSquare } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
-import { Link } from "react-scroll";
 
 const About = forwardRef((props, ref) => {
 

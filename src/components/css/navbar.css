@@ -1,5 +1,6 @@
 body {
   background-color: #f6f8fa;
+  
 }
 
 .navbar_container {
@@ -15,6 +16,7 @@ body {
   position: fixed;
   left: 50%;
   transform: translate(-50%);
+  z-index: 2;
 }
 
 .navbar_container ul {
@@ -60,3 +62,4 @@ body {
   width: 100%;
   opacity: 1;
 }
+
