@@ -5,7 +5,9 @@ const Skills = forwardRef((props, ref) => {
 
     return (
         <div className="section_three" ref={ref}>
-            <h1 className="third_title">hi there, this is the skills page</h1>
+            <div className="skill_details">
+          <h1>Skills</h1>
+        </div>
         </div>
     );
 });
