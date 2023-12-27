@@ -2,6 +2,7 @@ import React, { forwardRef } from "react";
 import "./css/projects.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import edugo2 from '../assets/edugo2.png';
 
 const Projects = forwardRef((props, ref) => {
 
@@ -10,7 +11,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="project_details">
                 <h1>Projects</h1>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={edugo2} className="proj_img"/>
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
