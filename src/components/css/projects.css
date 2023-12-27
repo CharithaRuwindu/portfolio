@@ -13,3 +13,8 @@ body{
     font-size: 350%;
     opacity: 0.7;
   }
+  .proj_img{
+    height: 200px;
+    width: 360px;
+    object-fit: cover;
+  }
