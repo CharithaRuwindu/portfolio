@@ -9,7 +9,6 @@ body {
 .card_container {
   margin-top: 5%;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -34,10 +33,11 @@ body {
 }
 
 .card {
-  background-color: aqua;
-  border: 1px solid rgb(181, 181, 181);
+  background-color: white;
+  /* border: 1px solid rgb(181, 181, 181); */
   border-radius: 5px;
   padding: 5px;
+  box-shadow: 0px 10px 10px 2px #dadada;
 }
 
 .project_image_container {
