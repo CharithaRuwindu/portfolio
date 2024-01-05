@@ -1,4 +1,4 @@
-import React, { forwardRef, useState } from "react";
+import React, { forwardRef, useState, useEffect } from "react";
 import './css/projects.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -12,6 +12,8 @@ const Projects = forwardRef((props, ref) => {
 
     const [EdugoShown, setEdugoShown] = useState(false);
     const [OmnipharShown, setOmnipharShown] = useState(false);
+
+ 
 
     return (
         <div className="section_four" ref={ref}>
