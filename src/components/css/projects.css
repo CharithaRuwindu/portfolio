@@ -6,17 +6,6 @@ body {
   min-height: 100vh;
 }
 
-.card_container {
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
-}
-
-.card_holder {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .project_details {
   padding-top: 3%;
   text-align: center;
@@ -25,6 +14,16 @@ body {
 .project_details h1 {
   font-size: 350%;
   opacity: 0.7;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+}
+
+.card_holder {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .proj_img {
@@ -51,4 +50,53 @@ body {
 .card_title{
   font-family: cursive;
   font-size: xx-large;
+}
+.card_text{
+  overflow: hidden;
+  transition: max-height .7s ease-in-out;
+  max-height: 0;
+}
+#card_text{
+  text-align: justify;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.card_slide{
+  transition: max-height .7s ease-in-out;
+  overflow: hidden;
+  max-height: 200px;
+}
+.git_btn{
+  transition: background-color .2s ease-in-out;
+  border: solid 0.1px rgb(122, 122, 122);
+  border-radius: 5px;
+  background-color: #60288F;
+  
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+}
+.git_btn:hover{
+  transition: background-color .2s ease-in-out;
+  background-color: blueviolet;
+}
+.git_icon{
+  margin: auto;
+  padding: none;
+  height: 25px;
+  width: 25px;
+  color: white;
+}
+.tech_container{
+  margin-top: 2%;
+  font-weight: 700;
+}
+.logo_container{
+  margin-top: 3%;
+  display: flex;
+}
+.tech_logo{
+  margin: auto;
+  max-height: 50px;
 }
