@@ -61,6 +61,7 @@ body {
     cursor: pointer;
     height: 50px;
     width: 50px;
+    transition: color .2s ease-in-out;
 }
 .github:hover{
     color: #60288F;
