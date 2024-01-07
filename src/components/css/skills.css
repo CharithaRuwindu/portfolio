@@ -12,3 +12,23 @@ body{
     font-size: 350%;
     opacity: 0.7;
   }
+  .skill_container{
+    display: flex;
+    width: 100%;
+    background-color: blueviolet;
+    
+  }
+  .skill_logo{
+    max-height: 20vh;
+    max-width: 25%;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skill_logo img{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: blue;
+  }
