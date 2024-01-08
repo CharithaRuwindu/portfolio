@@ -7,7 +7,7 @@ body {
 }
 .about_content {
   padding-top: 8%;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 .profile_container img {
   height: 100%;
@@ -17,7 +17,7 @@ body {
 .profile_container {
   animation: 1s ease-out 0s 1 slideInLeft;
   height: 75vh;
-  width: 80%;
+  width: 90%;
   display: flex;
   border-radius: 20px;
   background-color: rgb(235, 235, 235);
@@ -27,7 +27,7 @@ body {
   margin-left: 3%;
 }
 .prof_details h1 {
-    font-size: 280%;
+    font-size: 300%;
     margin-bottom: 20px;
     opacity: 0.8;
 }
@@ -40,11 +40,13 @@ body {
   margin-top: 5%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: large;
+  text-align: justify;
   opacity: 0.8;
+  padding-right: 8%;
 }
 .link_container{
   margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 25%;
     display: flex;
     width: 70%;
     opacity: 0.8;
