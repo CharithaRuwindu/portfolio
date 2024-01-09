@@ -18,7 +18,7 @@ const Education = forwardRef((props, ref) => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#F7FFF7", color: "#555555" }}
+            contentStyle={{ color: "#555555", background: "linear-gradient(to bottom, rgb(33, 150, 243) 5px, #F7FFF7 5px)"}}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2022 - present"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -32,13 +32,12 @@ const Education = forwardRef((props, ref) => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#F7FFF7", color: "#555555" }}
+            contentStyle={{ color: "#555555", background: "linear-gradient(to bottom, rgb(33, 150, 243) 5px, #F7FFF7 5px)" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2021 - present"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<BsMortarboardFill />}
           >
-            <div className="top_outline"></div>
             <h3 className="vertical-timeline-element-title">
             BSc. in Information Systems
             </h3>
@@ -47,7 +46,7 @@ const Education = forwardRef((props, ref) => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#F7FFF7", color: "#555555" }}
+            contentStyle={{ color: "#555555", background: "linear-gradient(to bottom, rgb(33, 150, 243) 5px, #F7FFF7 5px)" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2020 - 2021"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -61,7 +60,7 @@ const Education = forwardRef((props, ref) => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#F7FFF7", color: "#555555" }}
+            contentStyle={{ color: "#555555", background: "linear-gradient(to bottom, rgb(33, 150, 243) 5px, #F7FFF7 5px)" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2019"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -82,7 +81,7 @@ const Education = forwardRef((props, ref) => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#F7FFF7", color: "#555555"}}
+            contentStyle={{ color: "#555555", background: "linear-gradient(to bottom, rgb(33, 150, 243) 5px, #F7FFF7 5px)" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2018 - 2019"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -96,7 +95,7 @@ const Education = forwardRef((props, ref) => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#F7FFF7", color: "#555555" }}
+            contentStyle={{ color: "#555555", background: "linear-gradient(to bottom, rgb(33, 150, 243) 5px, #F7FFF7 5px)" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2014"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
