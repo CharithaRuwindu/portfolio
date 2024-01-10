@@ -38,3 +38,14 @@ body{
     transition: scale .4s ease-in-out;
   }
 
+  @media (max-width:900px){
+    .skill_container{
+      margin-top: 10%;
+    }
+    .skill_logo{
+      max-height: 60px;
+      max-width: 75px;
+    }
+
+  }
+
