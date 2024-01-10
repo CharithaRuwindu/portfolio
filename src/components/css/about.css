@@ -27,7 +27,7 @@ body {
   margin-left: 3%;
 }
 .prof_details h1 {
-    font-size: 300%;
+    font-size: 320%;
     margin-bottom: 20px;
     opacity: 0.8;
 }
@@ -84,4 +84,29 @@ body {
   100% {
     transform: translateX(0);
   }
+}
+
+@media (max-width:1200px){
+  .about_content {
+    padding-top: 15%;
+  }
+  .profile_container{
+    display: block;
+    height: 100%;
+  }
+  .profile_container img {
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 15px;
+  }
+  .prof_details h1 {
+    font-size: 200%;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.link_container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
 }

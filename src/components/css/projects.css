@@ -22,9 +22,6 @@ body {
   gap: 15%;
 }
 
-.card_holder {
-}
-
 .proj_img {
   max-width: 100%;
   border-radius: 5px;
@@ -97,4 +94,17 @@ body {
 .tech_logo{
   margin: auto;
   max-height: 50px;
+}
+@media (max-width:1200px){
+  .card_container{
+    display: block;
+  }
+  .card_text{
+    max-height: 200px;
+  }
+  .card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
 }

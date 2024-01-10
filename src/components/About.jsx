@@ -12,7 +12,9 @@ const About = forwardRef((props, ref) => {
         <div className="section_one" id="about" ref={ref}>
             <div className="about_content">
                 <div className="profile_container">
+                    <div className="pic_holder">
                     <img src={profile} alt="profile image" className="profile" />
+                    </div>
                     <div className="prof_details">
                         <h1 className="name_title">CHARITHA BANDARAADHIKARAM</h1>
                         <h3>Software Engineer Trainee | Undergraduate at UCSC</h3>
