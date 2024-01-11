@@ -3,6 +3,10 @@ body {
 
 }
 
+.menu_holder {
+  visibility: hidden;
+}
+
 .navbar_container {
   background-color: white;
   width: 40%;
@@ -63,20 +67,11 @@ body {
   opacity: 1;
 }
 
-@media (max-width:900px) {
+@media (max-width:700px) {
   .navbar_container {
-    width: 100%;
-    background-color: white;
-    height: 160px;
-    margin-top: 0;
-    padding: 0%;
-    border-radius: 0 0 15px 15px;
-    display: flex;
-    box-shadow: 0px 5px 5px 2px #dadada;
-    position: fixed;
-    transform: translate(-50%);
-    z-index: 2;
+    visibility: hidden;
   }
+
   .navbar_container ul {
     padding-left: 0%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -88,5 +83,48 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8%;
+  }
+
+  .menu_holder {
+    visibility: visible;
+    display: block;
+    background-color: white;
+    width: 100%;
+    max-height: 50px;
+    padding: 0%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 10px 10px 2px #dadada;
+    cursor: pointer;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+  }
+
+  .menu_icon {
+    height: 30px;
+    width: 30px;
+    background-color: #00a2e2;
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    border-radius: 10%;
+    border: solid 1px;
+    margin-bottom: 20px;
+  }
+
+  .menu_icon:hover {
+    background-color: #01acf0;
+  }
+  .menu_content{
+    margin-top: 11%;
+    text-align: center;
+  }
+  .menu_content ul{
+    list-style-type: none;
+  }
+  .menu_content ul li{
+    margin-bottom: 5%;
   }
 }
