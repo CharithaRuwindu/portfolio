@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./css/navbar.css";
-
+import { BiMenu } from "react-icons/bi";
 import Education from "./Education";
 import About from "./About";
 import Skills from "./Skills";
@@ -77,6 +77,19 @@ function Navbar() {
               Projects
             </li>
           </ul>
+        </div>
+        <div className="menu_holder">
+        <div className="menu_container">
+            <BiMenu className="menu_icon"/>
+        </div>
+        <div className="menu_content">
+          <ul>
+            <li>About</li>
+            <li>Education</li>
+            <li>Skills</li>
+            <li>Projects</li>
+          </ul>
+        </div>
         </div>
       </header>
       <About ref={aboutRef} />
