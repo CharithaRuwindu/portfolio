@@ -4,7 +4,10 @@ body {
 }
 
 .menu_holder {
-  visibility: hidden;
+  display: none;
+}
+.menu_holder_large{
+  display: none;
 }
 
 .navbar_container {
@@ -87,7 +90,6 @@ body {
   }
 
   .menu_holder {
-    visibility: visible;
     display: block;
     background-color: white;
     width: 100%;
@@ -99,6 +101,25 @@ body {
     position: fixed;
     left: 50%;
     transform: translate(-50%);
+    overflow: hidden;
+    transition: max-height .7s ease-in-out;
+    z-index: 2;
+  }
+
+  .menu_holder_large{
+    display: block;
+    background-color: white;
+    width: 100%;
+    max-height: 500px;
+    padding: 0%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 10px 10px 2px #dadada;
+    cursor: pointer;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    overflow: hidden;
+    transition: max-height .7s ease-in-out;
     z-index: 2;
   }
 
@@ -118,13 +139,14 @@ body {
     background-color: #01acf0;
   }
   .menu_content{
-    margin-top: 11%;
+    margin-top: 12%;
     text-align: center;
   }
   .menu_content ul{
     list-style-type: none;
   }
   .menu_content ul li{
+    margin-top: auto;
     margin-bottom: 5%;
   }
 }

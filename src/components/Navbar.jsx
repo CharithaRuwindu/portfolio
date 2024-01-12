@@ -18,6 +18,16 @@ function Navbar() {
     setActiveTab(index);
   };
 
+  const [holderClass, setholderClass] = useState('menu_holder');
+  const handleHolder = () => {
+    if (holderClass === 'menu_holder'){
+      setholderClass('menu_holder_large');
+    }
+    else{
+      setholderClass('menu_holder');
+    }
+  }
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -78,9 +88,9 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="menu_holder">
+        <div className={holderClass}>
         <div className="menu_container">
-            <BiMenu className="menu_icon"/>
+            <BiMenu className="menu_icon" onClick={handleHolder}/>
         </div>
         <div className="menu_content">
           <ul>
