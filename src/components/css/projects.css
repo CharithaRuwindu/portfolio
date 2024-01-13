@@ -22,11 +22,6 @@ body {
   gap: 15%;
 }
 
-.proj_img {
-  max-width: 100%;
-  border-radius: 5px;
-}
-
 .card {
   background-color: white;
   border-radius: 5px;
