@@ -36,8 +36,7 @@ const Projects = forwardRef((props, ref) => {
                 <div className="card_container">
                     <span className="card_holder" onMouseEnter={() => setEdugoShown(true)} onMouseLeave={() => setEdugoShown(false)}>
 
-                        {/* react bootstrap card component */}
-                        <Card className="card" style={{ width: '25rem' }}>
+                        <Card className="card">
                             <div className="project_image_container">
                                 <Splide options={{ rewind: true }} aria-label="React Splide Example" className="splide">
                                     <SplideSlide>
@@ -75,8 +74,7 @@ const Projects = forwardRef((props, ref) => {
 
                     <span className="card_holder" onMouseEnter={() => setOmnipharShown(true)} onMouseLeave={() => setOmnipharShown(false)}>
 
-                        {/* react bootstrap card component */}
-                        <Card className="card" style={{ width: '25rem' }}>
+                        <Card className="card">
                             <div className="project_image_container">
                                 <Splide options={{ rewind: true }} aria-label="React Splide Example" className="splide">
                                     <SplideSlide>
