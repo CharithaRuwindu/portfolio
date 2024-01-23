@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5bc8471d.css",
+    "main.js": "/portfolio/static/js/main.0cf4096f.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/portfolio/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/edugo1.png": "/portfolio/static/media/edugo1.4552a2f72be1dcb5e10a.png",
+    "static/media/edugo2.png": "/portfolio/static/media/edugo2.fd21e5451a2842b5cfb3.png",
+    "static/media/omniphar1.png": "/portfolio/static/media/omniphar1.aeff0058e854883d6a8e.png",
+    "static/media/node.png": "/portfolio/static/media/node.026e4f503d8e3d32a960.png",
+    "static/media/postgre.png": "/portfolio/static/media/postgre.643d40d11f764b9df1fe.png",
+    "static/media/edugo3.png": "/portfolio/static/media/edugo3.1e3eadaf4d1debf3a92b.png",
+    "static/media/omniphar2.png": "/portfolio/static/media/omniphar2.17bfcda77db353e56fae.png",
+    "static/media/profile_img3.png": "/portfolio/static/media/profile_img3.19ceae86beccc0a92ad9.png",
+    "static/media/omniphar3.png": "/portfolio/static/media/omniphar3.8e491c9d2809e69bb212.png",
+    "static/media/express.png": "/portfolio/static/media/express.915b89629a5fefdb6ca0.png",
+    "static/media/css.png": "/portfolio/static/media/css.0a8558796e2798ee7c60.png",
+    "static/media/react.png": "/portfolio/static/media/react.65ca18b4e9841f85a691.png",
+    "static/media/omniphar4.png": "/portfolio/static/media/omniphar4.cb62818879397d8a5874.png",
+    "static/media/php.png": "/portfolio/static/media/php.980637666d8fb06b760d.png",
+    "static/media/jboss.png": "/portfolio/static/media/jboss.4c0a11877979338cbcae.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.a6e182e14c2248364006.png",
+    "static/media/c.png": "/portfolio/static/media/c.88493cec4273fcf0a250.png",
+    "static/media/html.png": "/portfolio/static/media/html.2769713e05db6106dfc4.png",
+    "static/media/js.png": "/portfolio/static/media/js.b4b7cb09759dc424c92a.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.6bf4c31e206cf07fd86b.png",
+    "static/media/python.png": "/portfolio/static/media/python.dccc4ef963234fb4be5a.png",
+    "index.html": "/portfolio/index.html",
+    "main.5bc8471d.css.map": "/portfolio/static/css/main.5bc8471d.css.map",
+    "main.0cf4096f.js.map": "/portfolio/static/js/main.0cf4096f.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/portfolio/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bc8471d.css",
+    "static/js/main.0cf4096f.js"
+  ]
+}
