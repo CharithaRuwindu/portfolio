@@ -1,5 +1,5 @@
 {
-  "homepage": "http://CharithaRuwindu.github.io/portfolio",
+  "homepage": "https://CharithaRuwindu.github.io/portfolio",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -50,5 +50,10 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
