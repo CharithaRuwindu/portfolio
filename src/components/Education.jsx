@@ -34,7 +34,7 @@ const Education = forwardRef((props, ref) => {
             className="vertical-timeline-element--work"
             contentStyle={{ color: "#555555", background: "linear-gradient(to bottom, rgb(33, 150, 243) 5px, #F7FFF7 5px)" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2021 - present"
+            date="2021 - 2024"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<BsMortarboardFill />}
           >
@@ -42,7 +42,7 @@ const Education = forwardRef((props, ref) => {
             BSc. in Information Systems
             </h3>
             <h4 className="vertical-timeline-element-subtitle">University of Colombo School of Computing</h4>
-            <p>(GPA : 3.15)</p>
+            <p>(GPA : 3.21) - Second Class</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
