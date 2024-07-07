@@ -12,12 +12,18 @@ import phplogo from '../assets/php.png';
 import mysqllogo from '../assets/mysql.png';
 import reactlogo from '../assets/react.png';
 import nodelogo from '../assets/node.png';
+import javalogo from '../assets/java.png';
+import springlogo from '../assets/spring.png';
 import postgrelogo from '../assets/postgre.png';
 import expresslogo from '../assets/express.png';
+import oraclelogo from '../assets/oracle.png';
 import omniphar1 from '../assets/omniphar1.png';
 import omniphar2 from '../assets/omniphar2.png';
 import omniphar3 from '../assets/omniphar3.png';
 import omniphar4 from '../assets/omniphar4.png';
+import cbrs1 from '../assets/cbrs1.png';
+import cbrs2 from '../assets/cbrs2.png';
+import cbrs3 from '../assets/cbrs3.png';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { AiFillGithub } from "react-icons/ai";
@@ -26,6 +32,7 @@ const Projects = forwardRef((props, ref) => {
 
     const [EdugoShown, setEdugoShown] = useState(false);
     const [OmnipharShown, setOmnipharShown] = useState(false);
+    const [CBRSShown, setCBRSShown] = useState(false);
 
 
 
@@ -107,6 +114,45 @@ const Projects = forwardRef((props, ref) => {
                                             <img src={jslogo} alt="jslogo" className="tech_logo" />
                                             <img src={phplogo} alt="phplogo" className="tech_logo" />
                                             <img src={mysqllogo} alt="mysqllogo" className="tech_logo" />
+                                        </div>
+                                    </div>
+                                </Card.Text>
+                                <a href="https://github.com/CharithaRuwindu/omniphar.git" target="_blank"><Button variant="primary" className="git_btn"><AiFillGithub className="git_icon" /></Button></a>
+                                </Card.Body>
+                        </Card>
+                    </span>
+
+                    <span className="card_holder" onMouseEnter={() => setCBRSShown(true)} onMouseLeave={() => setCBRSShown(false)}>
+
+                        <Card className="card">
+                            <div className="project_image_container">
+                                <Splide options={{ rewind: true }} aria-label="React Splide Example" className="splide">
+                                    <SplideSlide>
+                                        <img src={cbrs1} alt="Image 1" />
+                                    </SplideSlide>
+                                    <SplideSlide>
+                                        <img src={cbrs2} alt="Image 2" />
+                                    </SplideSlide>
+                                    <SplideSlide>
+                                        <img src={cbrs3} alt="Image 3" />
+                                    </SplideSlide>
+                                </Splide>
+                            </div>
+                            <Card.Body className="c_body">
+                                <Card.Title className="card_title">CBRS</Card.Title>
+                                <Card.Text className={CBRSShown ? "card_slide" : "card_text"} id="card_text">
+                                The CEB Circuit Bungalow Reservation System is designed
+                                to enable employees and retirees of the Ceylon Electricity Board
+                                to secure accommodations at circuit bungalows for both official and personal visits.
+                                    <div className="tech_container">
+                                        Technologies :
+                                        <div className="logo_container">
+                                            <img src={html3logo} alt="html3 logo" className="tech_logo" />
+                                            <img src={css5logo} alt="css5 logo" className="tech_logo" />
+                                            <img src={jslogo} alt="jslogo" className="tech_logo" />
+                                            <img src={javalogo} alt="javalogo" className="tech_logo" />
+                                            <img src={springlogo} alt="springlogo" className="tech_logo" />
+                                            <img src={oraclelogo} alt="oraclelogo" className="tech_logo" />
                                         </div>
                                     </div>
                                 </Card.Text>

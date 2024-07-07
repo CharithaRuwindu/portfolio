@@ -19,7 +19,7 @@ body {
 .card_container {
   display: flex;
   justify-content: center;
-  gap: 15%;
+  gap: 5%;
 }
 
 .card {
@@ -90,6 +90,7 @@ body {
 .tech_logo{
   margin: auto;
   max-height: 50px;
+  max-width: 80px;
 }
 @media (max-width:1200px){
   .card_container{

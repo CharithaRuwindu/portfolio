@@ -19,6 +19,7 @@ import nodelogo from '../assets/node.png';
 import expresslogo from '../assets/express.png';
 import figmalogo from '../assets/figma.png';
 import githublogo from '../assets/github.png';
+import oraclelogo from '../assets/oracle.png';
 
 const Skills = forwardRef((props, ref) => {
 
@@ -53,6 +54,7 @@ const Skills = forwardRef((props, ref) => {
             </div>
             <div className="skill_container">
                 <div className="skill_logo"><img src={jbosslogo} alt="jboss logo" /></div>
+                <div className="skill_logo"><img src={oraclelogo} alt="oracle logo" /></div>
             </div>
         </div>
     );
