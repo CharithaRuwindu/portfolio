@@ -156,7 +156,7 @@ const Projects = forwardRef((props, ref) => {
                                         </div>
                                     </div>
                                 </Card.Text>
-                                <a href="https://github.com/CharithaRuwindu/omniphar.git" target="_blank"><Button variant="primary" className="git_btn"><AiFillGithub className="git_icon" /></Button></a>
+                                <a href="https://cbrs.ceb.lk/CBRS/WelcomeCBRS" target="_blank"><Button variant="primary" className="git_btn" id="visitlink">Visit Website</Button></a>
                                 </Card.Body>
                         </Card>
                     </span>

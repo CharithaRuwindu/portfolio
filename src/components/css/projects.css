@@ -92,6 +92,9 @@ body {
   max-height: 50px;
   max-width: 80px;
 }
+#visitlink{
+  color: white;
+}
 @media (max-width:1200px){
   .card_container{
     display: block;
