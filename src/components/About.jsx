@@ -17,7 +17,7 @@ const About = forwardRef((props, ref) => {
                     </div>
                     <div className="prof_details">
                         <h1 className="name_title">CHARITHA BANDARAADHIKARAM</h1>
-                        <h3>Former Software Engineer Trainee | UCSC Graduate</h3>
+                        <h3>Software Engineer | Full Stack | UCSC Graduate</h3>
                         <hr />
                         <p className="my_details">Hi! I'm Charitha, an academically diverse individual with a well-rounded skillset. I'm
                             passionate in solving complex problems through innovative
